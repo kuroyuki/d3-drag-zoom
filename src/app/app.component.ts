@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   items:{name:string, text:string, pos:{x:number,y:number}}[] = [
     {name:"Item1", text:"tejfslf fkel;f fl lfldlf ; ", pos:{x:12,y:20}},
-    {name:"Item2", text:"A big booty body was showing on the horizon. Guess what?", pos:{x:300, y:500}}
+    {name:"Item2", text:"Something huge is showing on the horizon. Guess what?", pos:{x:300, y:500}}
   ];
   onMouseOver(index:number){
     let ch = this.items[index]
