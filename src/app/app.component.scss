@@ -1,0 +1,12 @@
+.parent{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+}
+.child{
+    border: 1px solid blue;
+    background-color: lightblue;
+    position: absolute;
+    padding: 4px;
+    min-width: 100px;
+}
